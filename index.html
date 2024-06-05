@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+
+    <li class="nav">
+        <a href="gmail.com" style=" font-size: larger; font-weight: lighter;">Gmail</a>
+        <a href="Images" style=" font-size: larger; font-weight: lighter;">Images</a>
+        <img class="gb_Mc" src="https://www.gstatic.com/search-labs/beaker/Labs_logo_light_mode_1x.png"
+            srcset="https://www.gstatic.com/search-labs/beaker/Labs_logo_light_mode_1x.png 1x, https://www.gstatic.com/search-labs/beaker/Labs_logo_light_mode_2x.png 2x "
+            alt="" aria-hidden="true" role="presentation" style="width:140px;height:20px;  "
+            data-iml="1484.800000000745" data-atf="true">
+    </li>
+
+    <div class="baar">
+        <input type="text" name="search" id="search" placeholder="&nbsp &nbsp&nbsp&nbsp Search Google or type a URL"
+            style="font-size: 15px;">
+        <i class="fa fa-microphone" style="font-size:20px; margin-left: -28px;"></i>
+        <!-- <a href="google.com">Search</a>     -->
+        <button onclick="getData()" id="btn">Search</button>
+    </div>
+
+    <!-- <div id="icon" style="url(resources/images/icon_search.svg);"></div> -->
+    <div class="resultmain">
+
+        <div id="result">
+
+        </div>
+
+        <div id="imgresult">
+
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
